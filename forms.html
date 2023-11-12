@@ -5,36 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AzubiForms</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
 </head>
 
 <body>
     <forms>
         <fieldset>
             <legend>Personal information</legend>
-            <label for="firstname">firstname</label>
+            <label for="firstname">Firstname</label>
             <input type="text" name="firstname" required><br>
-            <label for="lastname">lastname</label>
+            <label for="lastname">Lastname</label>
             <input type="text" name="lastname" required><br>
             <label for="Phone Number">Phone Number</label>
             <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
             <label for="Email">Email address</label>
             <input type="email" name="email" id="email" required>
+            <label for="dob">Date of birth:<span>*</span></label>
+            <input type="date">
         </fieldset>
         <fieldset>
             <legend>Others </legend>
-            <label for="Gender">Gender</label><br>
-            <input type="radio" name="gender" value="male" checked>Male<br>
-            <input type="radio" name="gender" value="Female" checked>Female<br>
-            <input type="radio" name="gender" value="others" checked>Others<br>
-            <label for="Hobbies">Hobbies</label>
-            <select name="Hobbies">
-                <option value="Reading">Reading</option>
-                <option value="Sports">Sports</option>
-                <option value="Music">Music</option>
-                <option value="Travel">Traveling</option>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="gender" value="male " checked>Male<br>
+            <input type="radio" name="gender" value="Female ">Female<br>
+            <input type="radio" name="gender" value="others ">Others<br>
+            <label for="Hobbies ">Hobbies</label>
+            <select name="Hobbies ">
+                <option value="Reading ">Reading</option>
+                <option value="Sports ">Sports</option>
+                <option value="Music ">Music</option>
+                <option value="Travel ">Traveling</option>
             </select>
-
+            <br>
+            <label for="Message ">Message</label>
+            <textarea name="Messsage " id="msg " cols="30 " rows="10 "></textarea>
         </fieldset>
+
+        <input type="submit" name=" submit "> </forms>
 
 </body>
 
